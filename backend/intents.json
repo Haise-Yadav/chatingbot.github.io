@@ -1,0 +1,142 @@
+
+{"intents": [
+    {
+        "tags": "greetings",
+        "patterns": ["hello", "hey", "hi", "good morning", "good afternoon", "good evening", "how are you", "what's up"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey! What can I do for you?", "Good [time of day]! Welcome, how may I assist you?"]
+    },
+    {
+        "tags": "table_reservation",
+        "patterns": [
+            "I'd like to reserve a table.",
+            "Book a table for [date and time].",
+            "Table booking on [date] for [number of people].",
+            "Reserve a table for [special occasion] on [date].",
+            "Book a table at [restaurant name].",
+            "Can I make a reservation?",
+            "I want to dine in on [date and time]."
+        ],
+        "responses": ["Sure, I can help you with that. Please provide the following information: Date, time, number of people, and any special requests."]
+    },
+    {
+        "tags": "menu_inquiry",
+        "patterns": [
+            "What's on the menu?",
+            "Can you show me the menu?",
+            "Tell me about [dish name].",
+            "I'd like to see the menu options.",
+            "What do you have for [meal type]?",
+            "Show me the available [cuisine type] dishes."
+        ],
+        "responses": [""]
+    },
+    {
+        "tags": "special_requests",
+        "patterns": [
+            "I have dietary restrictions.",
+            "Can you accommodate [specific request]?",
+            "I need a high chair for my child.",
+            "I'm allergic to [allergen].",
+            "Do you offer vegan options?",
+            "Can I customize my order?",
+            "I have a [special occasion], can you make it special?"
+        ],
+        "responses": ["Certainly! We aim to accommodate your special requests. Please let us know your specific requirements, such as dietary restrictions, allergies, seating preferences, or any other special needs, and we'll do our best to make your experience enjoyable."]
+    },
+    {
+        "tags": "order_status",
+        "patterns": [
+            "Where's my order?",
+            "Check the status of my food order.",
+            "How long until my food arrives?",
+            "Is my order on its way?",
+            "Track my delivery.",
+            "When will my food be ready?",
+            "Can you update me on my order?"
+        ],
+        "responses": ["Of course! I can help you with that. To check the status of your food order, please provide your order number or the phone number associated with your order, and I'll look it up for you."]
+    },
+    {
+        "tags": "cancel_reservation",
+        "patterns": [
+            "I need to cancel my reservation.",
+            "Cancel my table booking.",
+            "I can't make it on [date/time].",
+            "I'd like to cancel my reservation for [date].",
+            "Please cancel my table reservation.",
+            "I need to change my reservation to a different time.",
+            "Cancel my booking at [restaurant name]."
+        ],
+        "responses": ["Certainly, I can assist you with canceling your reservation. To proceed, please provide your reservation details, such as the reservation date, time, and the name under which the reservation was made."]
+    },
+    {
+        "tags": "promotions",
+        "patterns": [
+            "Are there any discounts?",
+            "Tell me about promotions.",
+            "Do you have any special offers?",
+            "Are there any deals available?",
+            "Can I get a discount on [dish name]?",
+            "What's on the special menu today?",
+            "Tell me about your loyalty program.",
+            "Any happy hour specials?"
+        ],
+        "responses": ["Absolutely! We have some great promotions and discounts available. Please let me know your preferences, such as the type of discount you're looking for or the specific menu item you're interested in, and I'll provide you with the details."]
+    },
+    {
+        "tags": "goodbye",
+        "patterns": [
+            "Goodbye",
+            "See you later",
+            "I'm done for now",
+            "Farewell",
+            "Adios",
+            "Until next time",
+            "Take care"
+        ],
+        "responses": ["Goodbye! It was a pleasure assisting you. If you have more questions or need help in the future, don't hesitate to reach out. Have a wonderful day!"]
+    },
+    {
+        "tags":"newOrder",
+        "patterns":["I'd like to place a new order for [product/service].",
+        "Can I order [product]?",
+        "I want to buy [product].",
+        "How can I order [service]?",
+        "Please add [item] to my cart.",
+        "Order a [product] for me.",
+        "I'd like to purchase [item].",
+        "I'm interested in ordering [product/service].",
+        "What's the process for placing an order?",
+        "How do I place a new order?"],
+        "responses":["Certainly! To place a new order, please provide the details of the [product/service] you'd like to order.",
+        "You can order [product] by selecting it from our catalog and adding it to your cart.",
+        "Great choice! To purchase [item], simply click the 'Order Now' button.",
+        "To order [service], please visit our website and follow the ordering process outlined there.",
+        "Sure, I've added [item] to your cart. You can review and complete your order in the cart.",
+        "Your [product] order is on its way! We'll process it shortly.",
+        "Thank you for your order! Our team will process it as soon as possible.",
+        "Placing a new order is easy! Just follow the steps on our website or app.",
+        "To place a new order, go to our website and select the [product/service] you want to order.",
+        "Placing a new order is simple. You can do it through our website or app."]
+    },
+    {
+        "tag": "givingOrders",
+        "patterns": [
+          "I'd like to order",
+          "Can I get",
+          "I want to order",
+          "I'd like to order a {food_item}",
+          "I want {quantity} {food_item}",
+          "I'd like {quantity} of {food_item}",
+          "Give me {quantity} of {food_item}",
+          "I'll take {quantity} {food_item}",
+          "Order me {quantity} {food_item}",
+          "Could you get me {quantity} of {food_item}",
+          "I'm ready to order. I'd like {quantity} {food_item} and {quantity_2} {food_item_2}",
+          "I want {quantity} of {food_item} and {quantity_2} of {food_item_2}",
+          "{food_item} and {quantity_2} of {food_item}"
+        ],
+        "responses": [""]
+      }
+    
+]}
